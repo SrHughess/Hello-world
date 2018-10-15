@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+
+  int horas, mins, segs;
+
+  scanf("%d", &horas);
+  mins = horas * 60;
+  segs = horas * 3600;
+
+  printf("%d min\n", mins);
+  printf("%d seg\n", segs);
+
+}
